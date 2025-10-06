@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quizgecko"
+version = "0.1.2"
+description = "Python wrapper for the QuizGecko API"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Kalen McMillan"}]
+requires-python = ">=3.9"
+dependencies = ["requests>=2.32.0"]
+
+[project.urls]
+Homepage = "https://github.com/kalenmcmillan/quizgecko"
+Issues = "https://github.com/kalenmcmillan/quizgecko/issues"
+Repository = "https://github.com/kalenmcmillan/quizgecko"
