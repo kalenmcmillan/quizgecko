@@ -1,6 +1,8 @@
 # QuizGecko API Wrapper
 
-A clean Python client for the [QuizGecko API](https://quizgecko.com/api).   Supports quiz generation, uploads, questions, and language listing.
+A clean Python client for the [QuizGecko API](https://quizgecko.com/api).   
+
+Supports quiz generation, uploads, questions, and language listing.
 
 ## Installation
 
