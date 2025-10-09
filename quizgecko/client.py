@@ -11,7 +11,6 @@ from .auth import Auth
 DEFAULT_BASE_URL = 'https://quizgecko.com/api/v1'
 DEFAULT_TIMEOUT = 30
 
-
 def create_session(user_agent: str) -> requests.Session:
     """Create a configured requests.Session with retries and headers."""
     session = requests.Session()
