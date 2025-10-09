@@ -26,7 +26,6 @@ def create_session(user_agent: str) -> requests.Session:
     session.mount('http://', HTTPAdapter(max_retries = retry_policy))
     return session
 
-
 class Client:
     """HTTP transport for the QuizGecko API."""
     def __init__(
